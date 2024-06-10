@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+.container-header{
+    display: grid;
+    height: 1rem;
+    background-position: 0%;
+    width:100%;
+    border-radius: 100% 100% 100% ;
+    padding: 1.5% 0;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.2em;
+    font-family:  "inter" ;
+    
+}
+
+body {
+
+    background:  url(universo.gif) no-repeat center center ;
+    background-size: cover;
+} 
+
+
+.caixa { 
+    position: fixed;
+    top: 18px;
+    right: 20px;
+    width: 200px; /*ajuste se necessário */
+    height: 50px; /*ajuste se necessário*/
+    background-color:rgb(0, 247, 255);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+   
+}
+
+
+
+
+.container-main {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    height: 50rem;
+}
+
+#barrinha {
+    border-radius: 80%;
+    margin: 100px;
+    margin: 100px;
+    position: relative;
+    height: 100px;
+    width: 100px;
+    top: -500px;
+    
+}
+
+
+/* Estilo das Fotos */
+.foto {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1rem;
+
+}
+
+.foto-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.foto {
+    display: flex;
+    
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 6rem;
+   margin-top: 10%;
+ 
+}
+
+.container {
+    border-radius: 15px;
+        
+    
+    }
+
+
+
+.foto {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.foto img {
+    margin-right: 200px; /* Adiciona espaço entre a imagem e o texto */
+    margin-left: 40px;
+    margin-bottom: 25px;
+}
+
+.text-box {
+    margin-left: 0,1px;
+    margin-right: 200px;
+   
+    }
+
+      
+
+.container-header button {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+
+.container-header button:hover {
+    background-color: #22b4f8;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    
+}
+
+.hovered {
+    background-color: #63d3ff;
+    
+}
+
